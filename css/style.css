@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI' , Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    background-color: #785443;
+    padding: 5px 150px 5px;
+    
+}
+
+main{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.flexContainer{
+    display: -webkit-flex;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.flexItem{
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+
+}
+
+footer{
+    background-color: #1f1611;
+    color: white;
+    padding: 20px 150px 20px;
+    
+}
